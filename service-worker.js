@@ -26,20 +26,20 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
-    "url": "2020/06/13/a/index.html",
-    "revision": "febf3156e7e8f8449a1c497f73fe8066"
+    "url": "2020/06/14/a/index.html",
+    "revision": "e9a669201d145b99df6eca5fe8bcf832"
   },
   {
     "url": "2020/06/14/b/index.html",
-    "revision": "2039993385f65d46ce0f34cbf6877ef1"
+    "revision": "31be64e446f1af448fc862189ae30696"
   },
   {
     "url": "404.html",
-    "revision": "8b621599c0d9ff6e5c631edd5c04720c"
+    "revision": "660cd2c17273d312997617bf1c827235"
   },
   {
-    "url": "assets/css/0.styles.bf222012.css",
-    "revision": "4a4c1705af8e3b8e8229c8a4456e3800"
+    "url": "assets/css/0.styles.55366c7e.css",
+    "revision": "fb2f1f4db7e6fc09658e7bda8661f6b0"
   },
   {
     "url": "assets/fonts/EJRVQgYoZZY2vCFuvAFbzr-_dSb_nco.9738e026.woff2",
@@ -74,8 +74,8 @@ self.__precacheManifest = [
     "revision": "aef1fb3716ab0b0ec6d3c53aebac1889"
   },
   {
-    "url": "assets/js/14.5405bee2.js",
-    "revision": "28ef929dff60cbecf343069a5cbceb99"
+    "url": "assets/js/14.b525463b.js",
+    "revision": "0248281c97b4536c141b278c64f5d20a"
   },
   {
     "url": "assets/js/15.ec89fc8e.js",
@@ -106,8 +106,8 @@ self.__precacheManifest = [
     "revision": "ad480b608ab295fff63d2adc9548f037"
   },
   {
-    "url": "assets/js/7.8f328779.js",
-    "revision": "6f3bb0bb22d8bfeb6af1854868faab7d"
+    "url": "assets/js/7.e5d390fa.js",
+    "revision": "6c5cc9f6d40d12266e72a79e15b115c7"
   },
   {
     "url": "assets/js/8.9fe49a8c.js",
@@ -118,16 +118,20 @@ self.__precacheManifest = [
     "revision": "ed81b6d56404cd2af48219e7875f792a"
   },
   {
-    "url": "assets/js/app.af8ca30a.js",
-    "revision": "80fe13ef46ae20699f6decf452557322"
+    "url": "assets/js/app.386653c9.js",
+    "revision": "cbb7965e31e809c37fa7882e5f5f0a20"
   },
   {
     "url": "assets/js/vuejs-paginate.7616bb1a.js",
     "revision": "5a23a3b74033197f65b287a435d9bcfa"
   },
   {
+    "url": "baidu_verify_eA8vmXZFiJ.html",
+    "revision": "1309c2e8b49a493e00081198571b11a8"
+  },
+  {
     "url": "compo/demo.html",
-    "revision": "ac0b06f3c268456206f90ec6c95524a6"
+    "revision": "1066640c1d376158f03822548fe174bc"
   },
   {
     "url": "icon/android-icon-192x192-dunplab-manifest-1314.png",
@@ -183,31 +187,31 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0d07b8fbc9bebd949513e2e6ec47b22c"
+    "revision": "5cdc4582fe3fba82d17133b186a389cf"
   },
   {
     "url": "tag/index.html",
-    "revision": "d5655998a93beed5e22a18152a328fa6"
+    "revision": "e3d8d58b341419a1b48e1917a8ac454f"
   },
   {
     "url": "tag/JavaScript/index.html",
-    "revision": "ae2b526978efccce83f25e397de29c85"
+    "revision": "4a948404f029bda75daf494311952898"
   },
   {
     "url": "tag/PWA/index.html",
-    "revision": "62ccedab8b9bbadf88e823fda962d873"
+    "revision": "2d0f3b0d5767fad3c24ab2986fa49768"
   },
   {
     "url": "tag/SEO/index.html",
-    "revision": "c3e078f32f805865a3bb037638b3700b"
+    "revision": "71cad15cc9f019fda39bd5796e95bae9"
   },
   {
     "url": "tag/Vssue/index.html",
-    "revision": "0c1b7cbf7fbb6405c10101d6da00bb06"
+    "revision": "c7d28603255a90937eb2d30650719e6e"
   },
   {
     "url": "tag/Vue/index.html",
-    "revision": "66cae7e1f489014686096cc7190f8f7b"
+    "revision": "481fc0ac6c3e5218e07deea012c5cff6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
