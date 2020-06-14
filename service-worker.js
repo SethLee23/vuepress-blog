@@ -27,15 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/01/12/b/index.html",
-    "revision": "f10793ca53e9bd2bc935cf3b6a46f8f8"
+    "revision": "0e17f94d41d79816cb130748468f21c9"
   },
   {
     "url": "2020/06/13/a/index.html",
-    "revision": "202f148df2472a3a7b7422d8642796da"
+    "revision": "32695202dfefbd42c5656e48a518582d"
   },
   {
     "url": "404.html",
-    "revision": "c7b2d3f989c1ee5c441f84bdae0f9d82"
+    "revision": "9165c2f57debb00e1b8979b0ef8755d1"
   },
   {
     "url": "assets/css/0.styles.bf222012.css",
@@ -118,8 +118,8 @@ self.__precacheManifest = [
     "revision": "ed81b6d56404cd2af48219e7875f792a"
   },
   {
-    "url": "assets/js/app.d2f5a771.js",
-    "revision": "9dd615381d92f689f6a3926ef39b931f"
+    "url": "assets/js/app.06590cec.js",
+    "revision": "79540fdf3a159b8fdfe62b3f81b24869"
   },
   {
     "url": "assets/js/vuejs-paginate.7616bb1a.js",
@@ -127,7 +127,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compo/demo.html",
-    "revision": "f532e8a8bf14be55e037d3599e8d36f9"
+    "revision": "c5ff9d94d09be50f59d060e29d1f1842"
   },
   {
     "url": "icon/android-icon-192x192-dunplab-manifest-1314.png",
@@ -183,31 +183,31 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6789f6f77f2f5ff614893262f78e6fe9"
+    "revision": "1ea6e8be346f2b139e1c118438ccc384"
   },
   {
     "url": "tag/index.html",
-    "revision": "3fa09ecca3bdbaca9372298ed3f75b0f"
+    "revision": "0f821144dbe509485ddba7dd25b4d30d"
   },
   {
     "url": "tag/JavaScript/index.html",
-    "revision": "069ca81779ff8bbe9e2b3af45d72a653"
+    "revision": "fcf14fc04c22d05983b581530e98fe71"
   },
   {
     "url": "tag/PWA/index.html",
-    "revision": "81cdddf191b33ebead9eac2d00142eb6"
+    "revision": "2536fa07f3d511a98bfa7e4abc4f4f71"
   },
   {
     "url": "tag/SEO/index.html",
-    "revision": "4a8fe01bb8c2b5823e0398ebca9b48b6"
+    "revision": "1407176a5f57108bbebe4f4d49742658"
   },
   {
     "url": "tag/Vssue/index.html",
-    "revision": "734ec4fd23d7f616be053f1a66301234"
+    "revision": "4d7ae6071eaa96f30df561de82f2fbed"
   },
   {
     "url": "tag/Vue/index.html",
-    "revision": "dd552d12649c73b2a73b5e3c6e72bd9a"
+    "revision": "abb86f1fc5345e5e51d846c71fe7b4fa"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
