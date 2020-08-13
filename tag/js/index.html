@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>SEO Tag | seth&#39;s blog</title>
+    <title>js Tag | seth&#39;s blog</title>
     <meta name="generator" content="VuePress 1.5.1">
     <link rel="icon" href="/assets/img/favicon.ico">
     <link rel="manifest" href="/manifest.json">
@@ -11,8 +11,8 @@
     <meta name="description" content="seth's blog,简单的笔记">
     <meta property="og:site_name" content="seth's blog">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tag/SEO/">
-    <meta name="twitter:url" content="/tag/SEO/">
+    <meta property="og:url" content="/tag/js/">
+    <meta name="twitter:url" content="/tag/js/">
     <meta name="twitter:card" content="summary">
     <meta name="keywords" content="博客, Vuepress, Seth, 技术">
     <meta name="baidu-site-verification" content="eA8vmXZFiJ">
@@ -26,28 +26,23 @@
     <link rel="stylesheet" href="/assets/css/0.styles.55366c7e.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">seth's blog </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/tag/" class="nav-link router-link-active">Tags</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">seth's blog </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/" class="nav-link">Blog</a></li><li class="mobile-nav-item"><a href="/tag/" class="nav-link router-link-active">Tags</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div><div id="base-list-layout"><div itemscope="itemscope" itemtype="http://schema.org/Blog" class="ui-posts"><article itemprop="blogPost" itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="ui-post"><meta itemprop="mainEntityOfPage" content="/2020/06/14/a/"> <header itemprop="name headline" class="ui-post-title"><a href="/2020/06/14/a/" class="nav-link">Vuepress 搭建博客集成PWA,Vssue,谷歌分析,SEO,Travis Ci</a></header> <p itemprop="description" class="ui-post-summary">
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">seth's blog </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/tag/" class="nav-link router-link-active">Tags</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">seth's blog </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/" class="nav-link">Blog</a></li><li class="mobile-nav-item"><a href="/tag/" class="nav-link router-link-active">Tags</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div><div id="base-list-layout"><div itemscope="itemscope" itemtype="http://schema.org/Blog" class="ui-posts"><article itemprop="blogPost" itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="ui-post"><meta itemprop="mainEntityOfPage" content="/2020/08/13/%E5%85%B3%E4%BA%8E%E6%89%93%E5%8D%B0%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"> <header itemprop="name headline" class="ui-post-title"><a href="/2020/08/13/%E5%85%B3%E4%BA%8E%E6%89%93%E5%8D%B0%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/" class="nav-link">关于打印</a></header> <p itemprop="description" class="ui-post-summary">
         
 
- --&gt;
+无法打印滚动条下的内容
+   由于 body 被设置为了 overflow:hidden,打印时高度调整为 auto
+   在打印时调整为以下内容即可
 
-&gt; 搭建 vuepress 博客
-
-集成功能
-
-| 序号 |       功能        |          插件           |
-| ---- | :---------------: | :---------------------: |
-| 0    | 发布到自定义域名  | ...
+document.body.style.overflowX = 'auto';
+document.body.style.height = 'auto';
+window.print();
+document.body.style ...
         </p> <footer><div itemprop="publisher author" itemtype="http://schema.org/Person" itemscope="itemscope" class="ui-post-meta ui-post-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span itemprop="name">seth</span> <span itemprop="address">
               in Wuhan
-          </span></div> <div class="ui-post-meta ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2020-06-14T00:00:00.000Z">
-            Sun Jun 14 2020
-          </time></div> <div itemprop="keywords" class="ui-post-meta ui-post-tag"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg> <a href="/tag/PWA">
-            PWA
-          </a><a href="/tag/SEO" aria-current="page" class="router-link-exact-active router-link-active">
-            SEO
-          </a><a href="/tag/Vssue">
-            Vssue
+          </span></div> <div class="ui-post-meta ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2020-08-13T00:00:00.000Z">
+            Thu Aug 13 2020
+          </time></div> <div itemprop="keywords" class="ui-post-meta ui-post-tag"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg> <a href="/tag/js" aria-current="page" class="router-link-exact-active router-link-active">
+            js
           </a></div></footer></article></div> <!----></div></div></div> <footer class="footer" data-v-fdbf4940><div class="footer-left-wrap" data-v-fdbf4940><ul class="contact" data-v-fdbf4940></ul></div> <div class="footer-right-wrap" data-v-fdbf4940><ul class="copyright" data-v-fdbf4940></ul></div></footer></div><div class="global-ui"><!----><!----></div></div>
     <script src="/assets/js/app.58d24d19.js" defer></script><script src="/assets/js/6.5c95724c.js" defer></script><script src="/assets/js/13.435c81dd.js" defer></script><script src="/assets/js/4.1afb7d44.js" defer></script><script src="/assets/js/8.9fe49a8c.js" defer></script>
   </body>
